@@ -16,3 +16,9 @@ run createFinalAverages to get the final average for each data marker based on t
 run the euclidianDistanceTranslationAlgorithm at the end of conducting a sign to get a translation
 
 If averages for each data marker are being found again remember to change the averages in the euclidianDistanceTranslationAlgorithm.py and normalize them again. Normalize them using the normalization formula with the highest and lowest values found from the data marker averages of the signs which will already be in the arrays created from createFinalAverages and in the euclidianDistanceTranslationAlgorithm.py
+
+Extra stuff:
+
+the 1000averagestrialredo folder was created to find the averages for each sign again after dust affected the sensors.
+
+
