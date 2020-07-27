@@ -21,4 +21,4 @@ Extra stuff:
 
 the 1000averagestrialredo folder was created to find the averages for each sign again after dust affected the sensors.
 
-
+Currently confidence is calculated based on the difference between the euclidian distance of the recognized sign and the averages of the others. However, since the difference between the two does not necessarily indicate how confident it is. How close the euclidian distance is to 0 could be a better metric. Calculate the confidence based on a standardized number across all of the signs and the its difference with the euclidian distance of the translated sign. Preferrably this standardized number would be the farthest euclidian distance for a translate sign found.
