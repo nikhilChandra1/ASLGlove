@@ -1,6 +1,10 @@
 # ASLGlove
 
-Download Arduino and Putty
+To fully understand the project and code, refer to: https://drive.google.com/file/d/1_ij-H_Hi2xiw3T25jOMQu8cjde0JfS4K/view?usp=sharing
+
+Some more specifics related to the code:
+
+Arduino serial monitor data is logged using Putty
 
 Putty inputs all data to test.txt, so change the file path in putty to test.txt
 Also change port number on Putty based on the port shown from Arduino>Tools>Port
